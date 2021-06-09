@@ -1,8 +1,8 @@
 document.getElementById("skills").addEventListener("click", Skills);
 document.getElementById("border").addEventListener("click", Home);
-document.getElementById("name").addEventListener("click", Delete());
-document.getElementById("button").addEventListener("click", Send);
-document.getElementById("contact").addEventListener("click", Contact);
+//document.getElementById("name").addEventListener("click", Delete());
+//document.getElementById("button").addEventListener("click", Send);
+//document.getElementById("contact").addEventListener("click", Contact);
 document.getElementById("about").addEventListener("click", About);
 document.getElementById("rotate").addEventListener("click", Rotate);
 document.getElementById("projects").addEventListener("click", Project);
@@ -24,7 +24,7 @@ var span2 = document.getElementsByClassName("close")[1];
 
 
 var number = getRandomInt(100);
-document.getElementById("spam-prot").placeholder = number;
+//document.getElementById("spam-prot").placeholder = number;
 
 var current = 0;
 
@@ -75,7 +75,7 @@ function Project()
 
     document.getElementById("secone").style.display = "none";
     document.getElementById("sectwo").style.display = "none";
-    document.getElementById("secthree").style.display = "none";
+    //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfive").style.display = "none";
 
     document.getElementsByClassName("contain");
@@ -94,7 +94,7 @@ function About()
 
     document.getElementById("secone").style.display = "none";
     document.getElementById("sectwo").style.display = "none";
-    document.getElementById("secthree").style.display = "none";
+    //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementsByClassName("contain");
 
@@ -187,7 +187,7 @@ function Skills()
 {
 
     document.getElementById("secone").style.display = "none";
-    document.getElementById("secthree").style.display = "none";
+    //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementById("secfive").style.display = "none";
 
@@ -224,11 +224,11 @@ function Home()
 }
 
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() {
+//   modal.style.display = "none";
+// }
 
-span2.onclick = function() {
-  modal2.style.display = "none";
-}
+// span2.onclick = function() {
+//   modal2.style.display = "none";
+// }

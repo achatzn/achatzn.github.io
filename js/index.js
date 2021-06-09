@@ -9,7 +9,7 @@ document.getElementById("projects").addEventListener("click", Project);
 
 document.getElementById("skills-mobile").addEventListener("click", Skills);
 document.getElementById("border-mobile").addEventListener("click", Home);
-document.getElementById("contact-mobile").addEventListener("click", Contact);
+//document.getElementById("contact-mobile").addEventListener("click", Contact);
 document.getElementById("about-mobile").addEventListener("click", About);
 document.getElementById("projects-mobile").addEventListener("click", Project);
 

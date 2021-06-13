@@ -206,7 +206,7 @@ function Home()
 {
 
     document.getElementById("sectwo").style.display = "none";
-    document.getElementById("secthree").style.display = "none";
+    //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementById("secfive").style.display = "none";
 

@@ -824,6 +824,12 @@ input:focus::-webkit-input-placeholder {
           animation: fade-in 2s;
 }
 
+#secsix {
+  display: none;
+  -webkit-animation: fade-in 2s;
+          animation: fade-in 2s;
+}
+
 #secone {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -993,6 +999,19 @@ a:visited {
 
 .education h3 {
   text-align: center;
+}
+
+h5
+{
+  text-align: center;
+  margin-top: 0px;
+}
+
+h6
+{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .education .bold {

@@ -6,11 +6,13 @@ document.getElementById("border").addEventListener("click", Home);
 document.getElementById("about").addEventListener("click", About);
 document.getElementById("rotate").addEventListener("click", Rotate);
 document.getElementById("projects").addEventListener("click", Project);
+document.getElementById("research").addEventListener("click", Research);
 
 document.getElementById("skills-mobile").addEventListener("click", Skills);
 document.getElementById("border-mobile").addEventListener("click", Home);
 //document.getElementById("contact-mobile").addEventListener("click", Contact);
 document.getElementById("about-mobile").addEventListener("click", About);
+document.getElementById("research-mobile").addEventListener("click", Research);
 document.getElementById("projects-mobile").addEventListener("click", Project);
 
 
@@ -77,6 +79,7 @@ function Project()
     document.getElementById("sectwo").style.display = "none";
     //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfive").style.display = "none";
+    document.getElementById("secsix").style.display = "none";
 
     document.getElementsByClassName("contain");
 
@@ -89,6 +92,26 @@ function Project()
 
 }
 
+function Research()
+{
+
+    document.getElementById("secone").style.display = "none";
+    document.getElementById("sectwo").style.display = "none";
+    //document.getElementById("secthree").style.display = "none";
+    document.getElementById("secfive").style.display = "none";
+    document.getElementById("secfour").style.display = "none";
+
+    document.getElementsByClassName("contain");
+
+    var hold = document.getElementsByClassName("contain");
+
+    for( var i = 0; i < hold.length; i++)
+        hold[i].style.flexDirection = "column";
+
+    document.getElementById("secsix").style.display = "flex";
+
+}
+
 function About()
 {
 
@@ -96,6 +119,8 @@ function About()
     document.getElementById("sectwo").style.display = "none";
     //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
+    document.getElementById("secsix").style.display = "none";
+
     document.getElementsByClassName("contain");
 
     var hold = document.getElementsByClassName("contain");
@@ -114,6 +139,7 @@ function Contact()
     document.getElementById("sectwo").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementById("secfive").style.display = "none";
+    document.getElementById("secsix").style.display = "none";
 
     document.getElementsByClassName("contain");
 
@@ -190,6 +216,7 @@ function Skills()
     //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementById("secfive").style.display = "none";
+    document.getElementById("secsix").style.display = "none";
 
     document.getElementsByClassName("contain");
 
@@ -209,6 +236,7 @@ function Home()
     //document.getElementById("secthree").style.display = "none";
     document.getElementById("secfour").style.display = "none";
     document.getElementById("secfive").style.display = "none";
+    document.getElementById("secsix").style.display = "none";
 
 
     document.getElementsByClassName("contain");

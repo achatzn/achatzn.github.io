@@ -249,6 +249,19 @@ body {
   padding-left: 55px;
 }
 
+
+.center
+{
+
+  display: flex;
+  justify-content: center;
+  color: blue !important;
+  font-family: 'Courier New', Courier, monospace;
+  
+
+}
+
+
 .contain {
   display: -webkit-box;
   display: -ms-flexbox;

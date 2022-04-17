@@ -900,9 +900,9 @@ input:focus::-webkit-input-placeholder {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 6px;
@@ -987,6 +987,8 @@ input:focus::-webkit-input-placeholder {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
+
+
 
 .project-desc {
   height: 100px;
@@ -1170,3 +1172,5 @@ h6
   left: 5px;
 }
 /*# sourceMappingURL=main.css.map */
+
+
